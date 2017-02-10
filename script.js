@@ -24,6 +24,8 @@ window.onload = function() {
 			var pokemonType = document.querySelector("#pokeType");
 			var imgPokemon = document.querySelector('#leftScreen');
             imgPokemon.innerHTML ="";
+            pokemonName.innerHTML = "";
+            pokemonType.innerHTML = "";
             var error = true;
 
 
@@ -51,6 +53,8 @@ window.onload = function() {
 			if (error === true)
             {
                 imgPokemon.innerHTML = "<img src ='https://media.tenor.co/images/3338d55fa3df4bd3ae70274b70afec06/raw'>";
+                pokemonName.innerHTML = "Le pokemon n'existe pas !"
+				pokemonType.innerHTML = "Entre 1 et 151 ou avec un nom qui existe ta tête !"
             }
 			return false;
 		};
