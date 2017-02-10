@@ -1,0 +1,339 @@
+#pokedex{
+	display: flex;
+}
+
+#left{
+	background-color: red;
+	float: left;
+	position: relative;
+	width: 400px;
+	height: 500px;
+	border-bottom-left-radius: 30px;
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	box-shadow: -6px 5px 5px 0px #656565;
+}
+
+#right{
+	background-color: red;
+	width: 350px;
+	height: 400px;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	margin-top: 100px;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+	border-right-width: 3px;
+	box-shadow: -10px 9px #5E000;
+	box-shadow: -6px 5px 5px 0px #656565;
+}
+
+#rightCurve{
+	height: 45px;
+	width: 200px;
+	background-color: red;
+	position: absolute;
+	top: 69px;
+	left: 421px;
+	border-top-right-radius: 70px;
+	border-top-style: solid;
+	border-top-color: black;
+	border-top-width: 1px;
+}
+
+#topLeft{
+	width: 400px;
+	height: 60px;
+	position: absolute;
+	background-color: #C1061B;
+	border-top-right-radius: 30px;
+	border-top-left-radius: 30px;
+}
+
+#topLeftMini{
+	width: 200px;
+	height: 100px;
+	background-color: #C1061B;
+	border-top-left-radius: 30px;
+
+}
+
+#topMiddleMini{
+	width: 150px;
+	height: 45px;
+	background-color: red;
+	position: absolute;
+	left: 40%;
+	top: 12%;
+	border-top-left-radius: 70px;
+}
+
+#bigEye{
+	width: 85px;
+	height: 85px;
+	position: absolute;
+	border-radius: 90px;
+	background-color: yellow;
+	top: 2%;
+	left: 4%;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+#bigMiniEye{
+	width: 74px;
+	height: 74px;
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	background-color: #1386CA;
+	border-radius: 80px;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+}
+
+#eyeContainerLeft{
+	position: absolute;
+	top: 3%;
+	left: 30%;
+	display: flex;
+	width: 150px;
+	height: 30px;
+	background-color: #C1061B;
+}
+
+#littleEye1{
+	border-radius: 23px;
+	width: 23px;
+	height: 23px;
+	background-color: green;
+	margin: auto;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+}
+
+#littleEye2{
+	border-radius: 23px;
+	width: 23px;
+	height: 23px;
+	background-color: yellow;
+	margin: auto;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+}
+
+#littleEye3{
+	border-radius: 23px;
+	width: 23px;
+	height: 23px;
+	background-color: orange;
+	margin: auto;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+}
+
+#middle{
+	height: 440px;
+	width: 50px;
+	background: radial-gradient(#4C4C4C, #B8B8B8);
+	position: absolute;
+	left: 90%;
+	top: 12%;
+	border-width: 1px;
+	border-color: black;
+	border-style: solid;
+	}
+
+#rightWindow{
+	width: 250px;
+	height: 125px;
+	background-color: green;
+	position: absolute;
+	top: 120px;
+	left: 465px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	border-radius: 5px;
+}
+
+#rightButtons{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 250px;
+	height: 125px;
+	position: absolute;
+	top: 235px;
+	left: 465px;
+}
+
+#rightButtons1{
+	display: flex;
+	justify-content: space-around;
+	height: 40px;
+	width: 250px;
+}
+
+#rightButtons2{
+	display: flex;
+	justify-content: space-around;
+	height: 40px;
+	width: 250px;
+
+}
+
+.rightButton{
+	display: inline-flex;
+	height: 30px;
+	width: 45px;
+	background: radial-gradient(circle, #205AA8, #1466D2);
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 6px;
+	box-shadow: -3px 2px 5px 0px #656565;
+}
+
+#rightWhiteButton{
+	display: flex;
+	justify-content: space-around;
+	width: 150px;
+	height: 50px;
+	position: absolute;
+	top: 350px;
+	left: 450px;
+}
+
+.whiteButton{
+	height: 45px;
+	width: 70px;
+	background-color: white;
+	border-width: 1px;
+	border-color: black;
+	border-radius: 3px;
+	box-shadow: -3px 2px 5px 0px #656565;
+}
+
+#leftWindow{
+	position: absolute;
+	width: 275px;
+	height: 260px;
+	background-color: grey;
+	top: 25%;
+	left: 50px;
+	border-radius: 10px;
+}
+
+#leftScreen{
+	width: 225px;
+	height: 175px;
+	background-color: white;
+	margin: auto;
+	margin-top: 22px;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: black;
+}
+
+#screenCorner{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 75px 0 0 75px;
+	border-color: transparent transparent transparent red;
+}
+
+#blackTraits{
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	width: 100px;
+	height: 40px;
+	position: absolute;
+	top: 82%;
+	left: 150px;
+}
+
+.blackTrait{
+	width: 100px;
+	height: 5px;
+	background-color: black;
+	border-radius: 3px;
+}
+
+#rightBigButtons{
+	display: flex;
+	justify-content: space-between;
+	height: 80px;
+	width: 250px;
+	position: absolute;
+	top: 420px;
+	left: 465px;
+}
+
+.bigButton{
+	background: radial-gradient(circle, #EBD90D, #CBBB0B);
+	border-radius: 15px;
+	width: 115px;
+	height: 70px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+}
+
+#littleCircles{
+	display: flex;
+	justify-content: space-between;
+	width: 40px;
+	height: 20px;
+	position: absolute;
+	top: 350px;
+	left: 670px;
+}
+
+#littleCircle1{
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	background-color: green;
+}
+
+#littleCircle2{
+	width: 15px;
+	height: 15px;
+	border-radius: 15px;
+	background-color: yellow;
+}
+
+#windowButton{
+	width: 30px;
+	height: 30px;
+	background: radial-gradient(circle, #E31612, #9C0E0B);
+	border-radius: 30px;
+	position: absolute;
+	top: 84%;
+	left: 50px;
+}
+
+#blueButton{
+	width: 65px;
+	height: 65px;
+	background: radial-gradient(circle, #1167E0, #0F4798);
+	border-radius: 70px;
+	position: absolute;
+	top: 80%;
+	left: 40px;
+	box-shadow: -3px 2px 5px 0px #656565;
+}
