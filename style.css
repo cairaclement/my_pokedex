@@ -1,6 +1,107 @@
 #pokedex{
 	display: flex;
 }
+img{
+	width: 223px;
+	height: 172px;
+	border-radius: 10px;
+}
+
+#button{
+			border : solid 2px #e31010;
+			border-radius : 18px 3px 20px 3px ;
+			moz-border-radius : 18px 3px 20px 3px ;
+			-webkit-box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+			-moz-box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+			box-shadow : 0px 0px 2px rgba(0,0,0,1.0);
+			font-size : 14px;
+			color : #ffffff;
+			padding : 1px 17px;
+			background-color : #1590e8;
+
+}
+
+#cross{
+	height: 90px;
+	width: 90px;
+	position: relative;
+	top: 290px;
+	left: 230px;
+}
+#topcross{
+	width: 30px;
+	height: 30px;
+	background-color: black;
+	position: absolute;
+	top: 0;
+	left: 30px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+#leftcross{
+	width: 30px;
+	height: 30px;
+	background-color: black;
+	z-index: 1;
+	position: absolute;
+	left: 0;
+	top: 30px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+#rightcross{
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	top: 30px;
+	right: 0;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	background-color: black;
+}
+
+#botcross{
+	width: 30px;
+	height: 30px;
+	background-color: black;
+	position: absolute;
+	bottom: 0;
+	left: 30px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#midCircle{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: 5px;
+	left: 4px;
+	border-radius: 30px;
+	background-color: #555555;
+}
+
+#midcross{
+	width: 30px;
+	height: 30px;
+	background-color: #222;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+
+
+#formBlock{
+	text-align: center;
+	top: 100px;
+	position: relative;
+}
+
+#mytext{
+	background-color: #2aabed;
+	border-width: 0px;
+}
 
 #left{
 	background-color: red;
@@ -245,6 +346,7 @@
 	border-style: solid;
 	border-width: 5px;
 	border-color: black;
+	background-color: #2aabed;
 }
 
 #screenCorner{
